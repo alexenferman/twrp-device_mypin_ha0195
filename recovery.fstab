@@ -5,8 +5,8 @@
 /system           ext4   /dev/block/system
 /data             ext4   /dev/block/data
 /cache            ext4   /dev/block/cache
-/boot             emmc   /dev/block/boot
-/recovery         emmc   /dev/block/recovery
+/boot             mtd    boot
+/recovery         mtd    recovery
 
 # Removable Storage
 /sdcard           vfat  /dev/block/mmcblk#p#  flags=display="Micro SDcard";storage;wipeingui;removable
