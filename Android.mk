@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-ifneq ($(filter stvs9,$(TARGET_DEVICE)),)
+ifneq ($(filter p212_8723,$(TARGET_DEVICE)),)
 
 LOCAL_PATH := $(call my-dir)
 
