@@ -1,4 +1,5 @@
 on early-init
+    insmod /boot/aml_nftl_dev.ko sync=0
     insmod /boot/dwc3.ko
 
 on init
