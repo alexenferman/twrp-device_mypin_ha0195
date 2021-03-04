@@ -38,12 +38,12 @@ BOARD_KERNEL_BASE := 0x01078000
 BOARD_KERNEL_PAGESIZE := 2048
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0xfff88000 --second_offset 0xffe88000 --tags_offset 0xfef88100
 
-# Using Prebuilt as MyGica has no respect for GPL. 
+# Using Prebuilt as MyPin has no respect for GPL. 
 # A pending request has been sent to the company 
 # requesting the kernel source, but I have yet to 
 # get an answer.
 
-TARGET_PREBUILT_KERNEL := device/mygica/stvs9/prebuilt/zImage
+TARGET_PREBUILT_KERNEL := device/mypin/ha0195/prebuilt/zImage
 
 # Partition sizes
 # Not the real sizes, fixing soon.
@@ -54,7 +54,7 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 5272240128
 BOARD_FLASH_BLOCK_SIZE := 131072 # (BOARD_KERNEL_PAGESIZE * 64)
 
 # Recovery
-TARGET_RECOVERY_FSTAB := device/mygica/stvs9/recovery.fstab
+TARGET_RECOVERY_FSTAB := device/mypin/ha0195/recovery.fstab
 TARGET_RECOVERY_PIXEL_FORMAT := "RGB_565"
 TARGET_RECOVERY_FORCE_PIXEL_FORMAT := "RGB_565"
 TARGET_USERIMAGES_USE_EXT4 := true
