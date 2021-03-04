@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_stvs9.mk
+    $(LOCAL_DIR)/omni_p212_8723.mk
