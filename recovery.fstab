@@ -1,0 +1,13 @@
+# Recovery Fstab
+# 2021 Alexenferman
+# <mnt_point>      <type> <src>                 <mnt_flags and options>       <fs_mgr_flags>
+
+/system           ext4   /dev/block/system
+/data             ext4   /dev/block/data
+/cache            ext4   /dev/block/cache
+/boot             emmc   /dev/block/boot
+/recovery         emmc   /dev/block/recovery
+
+# Removable Storage
+/sdcard           vfat  /dev/block/mmcblk#p#  flags=display="Micro SDcard";storage;wipeingui;removable
+/udisk            auto  /dev/block/sd##       flags=display="USB-OTG";storage;wipeingui;removable
