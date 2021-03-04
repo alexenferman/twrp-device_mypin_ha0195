@@ -19,16 +19,16 @@ $(call inherit-product-if-exists, $(SRC_TARGET_DIR)/product/embedded.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
-# Inherit from achill device
-$(call inherit-product, device/mygica/stvs9/device.mk)
+# Inherit from ha0195 device
+$(call inherit-product, device/mypin/ha0195/device.mk)
 
 # Inherit some common Omni stuff.
 $(call inherit-product, vendor/omni/config/common.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := stvs9
-PRODUCT_NAME := omni_stvs9
-PRODUCT_BRAND := MyGica
-PRODUCT_MODEL := ATV195X
-PRODUCT_MANUFACTURER := MyGica
-PRODUCT_RELEASE_NAME := MyGica ATV195X
+PRODUCT_DEVICE := p212_8723
+PRODUCT_NAME := omni_p212_8723
+PRODUCT_BRAND := MyPIN
+PRODUCT_MODEL := HA0195
+PRODUCT_MANUFACTURER := MyPIN
+PRODUCT_RELEASE_NAME := MyPIN HA0195 
