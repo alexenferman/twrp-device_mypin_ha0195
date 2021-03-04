@@ -1,1 +1,1 @@
-add_lunch_combo omni_stvs9-userdebug
+add_lunch_combo omni_p212_8723-userdebug
