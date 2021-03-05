@@ -36,7 +36,7 @@ TARGET_GLOBAL_CPPFLAGS += -mfpu=neon -mfloat-abi=softfp
 # Kernel
 BOARD_KERNEL_BASE := 0x01078000
 BOARD_KERNEL_PAGESIZE := 2048
-BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0xfff88000 --second_offset 0xffe88000 --tags_offset 0xfef88100
+BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0xfff88000 --second_offset 0xffe88000 --tags_offset 0xfef88100 --second device/mypin/p212_8723/prebuilt/second
 
 # Using Prebuilt as MyPin has no respect for GPL. 
 # A pending request has been sent to the company 
